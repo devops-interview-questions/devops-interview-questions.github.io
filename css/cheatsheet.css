@@ -140,6 +140,12 @@ body {
   [id="dropdowns"] .bd-example .dropstart {
     margin: 0 1rem 1rem 0;
   }
+
+  iframe{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
   
   /* Layout */
   @media (min-width: 1200px) {
@@ -212,6 +218,12 @@ body {
     .bd-cheatsheet .bd-heading {
       z-index: 1;
     }
+
+    iframe{
+      width: 75%;
+      margin-left: 12.5%;
+    }
+
   }
 
   code{
@@ -219,3 +231,8 @@ body {
     background: #333;
     line-height: 0; */
   }
+
+  img{
+    max-width: 100%;
+  }
+

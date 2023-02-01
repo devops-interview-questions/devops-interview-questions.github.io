@@ -1,8 +1,27 @@
 let unixQuestions =  {
     Section: "Unix Shell Scripting",
     Title: "Top 60",
-    URL: "https://www.softwaretestinghelp.com/shell-scripting-interview-questions/",
+    URLs: [
+        {
+            Title: 'Video tutorial 1',
+            URL: "https://youtu.be/vLPdBp9vv9Y",
+        },
+        {
+            Title: 'Video tutorial 2',
+            URL: "https://youtu.be/8c1BL5b47kg",
+        },
+        {
+            Title: 'Source: softwaretestinghelp.com',
+            URL: "https://www.softwaretestinghelp.com/shell-scripting-interview-questions/",
+        }
+    ],
     Questions: [
+        [
+            `Video tutorials`,
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/vLPdBp9vv9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8c1BL5b47kg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        ],
         [
             `What is Shell?`,
             `Shell is a command interpreter, which interprets the command given by the user to the kernel. It can also be defined as an interface between a user and the operating system.`

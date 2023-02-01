@@ -2,81 +2,51 @@
 
     let questions = [
 
+        {
+            Section: "Welcome!",
+            Title: "",
+            URLs: [
+                // {
+                //     Title: '',
+                //     URL: "https://devops-interview-questions.github.io/",
+                // }
+            ],
+            Questions: [
+                [
+                    `About`,
+                    `DevOps is a rapidly growing field that combines software development and IT operations to accelerate the delivery of high-quality software products. The focus of DevOps is on collaboration, automation, and continuous delivery, with the goal of improving the speed and reliability of software delivery.
+
+                    As a result of the growing demand for DevOps professionals, it is essential for job seekers to have a strong understanding of the key concepts and techniques involved in the field. This is where DevOps interview questions come into play.
+                    
+                    DevOps interview questions are designed to assess a candidate's knowledge of the key principles and practices of DevOps, as well as their experience with various tools and technologies. These questions may cover topics such as Continuous Integration and Continuous Deployment (CI/CD), containerization, infrastructure as code, and monitoring and logging.
+                    
+                    Whether you are an experienced DevOps professional or just starting out in the field, preparing for DevOps interview questions is an important step in your career journey. By familiarizing yourself with the key concepts and techniques of DevOps, you can demonstrate your knowledge and skills to potential employers and set yourself apart as a highly qualified candidate.`
+                ],
+                [
+                    `Disclaimer`,
+                    `The interview guidelines provided below are intended to serve as a general guide for conducting job interviews. They are not intended to be legal advice, and should not be relied upon as such. These guidelines are not exhaustive and do not cover all potential legal issues that may arise during the interview process. We encourages all interviewers to consult with human resources or legal counsel to ensure compliance with all applicable laws and regulations. The company is not responsible for any actions or decisions made by interviewers in reliance on these guidelines.`
+                ]
+            ]
+        },
+        cicdQuestions,
         linuxQuestions,
         unixQuestions,
         shellQuestions,
         shellScriptingQuestions,
         gitQuestions,
-        {
-            Section: "Docker",
-            Title: "Beginner",
-            URL: "https://www.knowledgehut.com/interview-questions/docker",
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Docker",
-            Title: "Intermediate",
-            URL: "https://www.knowledgehut.com/interview-questions/docker",
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Docker",
-            Title: "Advanced",
-            URL: "https://www.knowledgehut.com/interview-questions/docker",
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Docker",
-            Title: "Top in 2023",
-            URL: "https://www.interviewbit.com/docker-interview-questions/",
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Kubernetes",
-            Title: "Top 55",
-            URL: "https://www.guru99.com/kubernetes-interview-questions-answers.html",
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Kubernetes",
-            Title: "Top 25+",
-            URL: "https://www.interviewbit.com/kubernetes-interview-questions/#k8-services-running-on-nodes",
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
+        dockerQuestions,
+        docker2Questions,
+        k8s2Questions,
+        k8sQuestions,
         {
             Section: "Azure",
             Title: "Top 45+",
-            URL: "https://k21academy.com/microsoft-azure/az-303/top-interview-questions-for-microsoft-azure-solution-architect/",
+            URLs: [
+                {
+                    Title: 'Source: k21academy.com',
+                    URL: "https://k21academy.com/microsoft-azure/az-303/top-interview-questions-for-microsoft-azure-solution-architect/",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -87,7 +57,12 @@
         {
             Section: "Azure DevOps",
             Title: "Top 50",
-            URL: "https://www.opstrainerz.com/blog/azure-devops-interview-questions",
+            URLs: [
+                {
+                    Title: 'Source: opstrainerz.com',
+                    URL: "https://www.opstrainerz.com/blog/azure-devops-interview-questions",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -98,7 +73,12 @@
         {
             Section: "Azure DevOps",
             Title: "Top 30",
-            URL: "https://mindmajix.com/azure-devops-interview-questions",
+            URLs: [
+                {
+                    Title: 'Source: mindmajix.com',
+                    URL: "https://mindmajix.com/azure-devops-interview-questions",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -109,7 +89,12 @@
         {
             Section: "Azure Pipelines",
             Title: "Top 20",
-            URL: "https://www.softwaretestinghelp.com/shell-scripting-interview-questions/",
+            URLs: [
+                {
+                    Title: 'Source: softwaretestinghelp.com',
+                    URL: "https://www.softwaretestinghelp.com/shell-scripting-interview-questions/",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -120,7 +105,12 @@
         {
             Section: "CI/CD",
             Title: "30 common",
-            URL: "https://semaphoreci.com/blog/common-cicd-interview-questions",
+            URLs: [
+                {
+                    Title: 'Source: semaphoreci.com',
+                    URL: "https://semaphoreci.com/blog/common-cicd-interview-questions",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -131,7 +121,12 @@
         {
             Section: "AWS",
             Title: "Top 100+",
-            URL: "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+            URLs: [
+                {
+                    Title: 'Source: simplilearn.com',
+                    URL: "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -142,7 +137,12 @@
         {
             Section: "AWS",
             Title: "Top 55",
-            URL: "https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/",
+            URLs: [
+                {
+                    Title: 'Source: intellipaat.com',
+                    URL: "https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/",
+                }
+            ],
             Questions: [
                 [
                     ``,
@@ -168,8 +168,16 @@
 
                     <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
                         <h3>${section.Title}</h3>
-                        <a class="d-flex align-items-center" href="${section.URL}">Origin website</a>
-                    </div>
+        `;
+        
+        for (let URL of section.URLs){
+            html += `
+                        <a class="d-flex align-items-center" href="${URL.URL}" target="_blank">${URL.Title}</a>
+                    `;
+        }
+
+        html += `
+                   </div>
 
                     <div>
 

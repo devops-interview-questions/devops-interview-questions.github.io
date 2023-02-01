@@ -1,8 +1,27 @@
 let linuxQuestions = {
     Section: 'Linux',
     Title: 'Top 35',
-    URL: 'https://www.softwaretestinghelp.com/linux-interview-questions-answers/',
+    URLs: [
+        {
+            Title: 'Video tutorial 1',
+            URL: 'https://youtu.be/ROjZy1WbCIA'
+        },
+        {
+            Title: 'Video tutorial 2',
+            URL: 'https://youtu.be/Wvf0mBNGjXY'
+        },
+        {
+            Title: 'Source: softwaretestinghelp.com',
+            URL: 'https://www.softwaretestinghelp.com/linux-interview-questions-answers/',
+        }
+    ],
     Questions: [
+        [
+            `Video tutorials`,
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/ROjZy1WbCIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wvf0mBNGjXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        ],
         [
             "What do you understand by Linux Kernel? Is it legal to edit it?",
             `‘Kernel’ basically refers to that core component of the computer operating system that provides basic services for the other parts as well as interacts with user commands. When it comes to ‘Linux Kernel’, it is referred to as low-level system software providing an interface for user-level interactions.
@@ -466,3 +485,5 @@ let linuxQuestions = {
         ]
     ]
 }
+
+console.log(JSON.stringify(linuxQuestions));

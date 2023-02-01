@@ -1,8 +1,33 @@
 let shellQuestions = {
     Section: "Shell Scripting",
     Title: "Top in 2022",
-    URL: "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    URLs: [
+        {
+            Title: 'Video tutorial 1',
+            URL: 'https://youtu.be/v-F3YLd6oMw'
+        },
+        {
+            Title: 'Video tutorial 2',
+            URL: 'https://youtu.be/1mt2-LbKuvY'
+        },
+        {
+            Title: 'Video tutorial 3',
+            URL: 'https://youtu.be/zsajhz2_50g'
+        },
+        {
+            Title: 'Source: interviewbit.com',
+            URL: "https://www.interviewbit.com/shell-scripting-interview-questions/",
+        }
+    ],
     Questions: [
+        [
+            `Video tutorials`,
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/v-F3YLd6oMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1mt2-LbKuvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zsajhz2_50g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        ],
         [
             `What is Shell Scripting`,
             `Text files containing commands to execute by a shell are called shell scripts. In this, long and repetitive series of commands are compiled into a single script that can be stored and executed at any time, thereby reducing programming efforts. In shell scripts, repetitive work is largely avoided. The most common reason for using shell scripting is to program operating systems of Windows, UNIX, Apple, etc. In addition, companies use this script to develop an operating system with their own features. In terms of system-level operations, it is considered to be the easiest programming language to use. A shell script is referred to as a batch file in DOS operating system, and EXEC in IBM's mainframe VM operating systems. Shell scripts can be used for the following applications: 

@@ -2,8 +2,27 @@ let gitQuestions =
 {
     Section: "GIT",
     Title: "Top 100+",
-    URL: "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    URLs: [
+        {
+            Title: 'Video tutorial 1',
+            URL: 'https://youtu.be/8JJ101D3knE'
+        },
+        {
+            Title: 'Video tutorial 2',
+            URL: 'https://youtu.be/Uszj_k0DGsg'
+        },
+        {
+            Title: 'Source: simplilearn.com',
+            URL: "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+        }
+    ],
     Questions: [
+        [
+            `Video tutorials`,
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/8JJ101D3knE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Uszj_k0DGsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        ],
         [
             `What is Git?`,
             `Git is a version control system for tracking changes in computer files and is used to help coordinate work among several people on a project while tracking progress over time. In other words, it’s a tool that facilitates source code management in software development.
