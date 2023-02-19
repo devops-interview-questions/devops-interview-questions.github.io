@@ -201,7 +201,7 @@ let shellQuestions = {
         ],
         [
             `Write difference between Hard link and Soft Link.`,
-            `<table>
+            `<table class="table table-striped">
             <thead><tr>
             <th>Hard Link</th>
             <th>Soft Link</th>

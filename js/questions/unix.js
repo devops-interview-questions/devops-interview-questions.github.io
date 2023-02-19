@@ -40,7 +40,7 @@ let unixQuestions =  {
         ],
         [
             `List some of the common and most widely used UNIX commands.`,
-            `<table id="tablepress-137" class="tablepress tablepress-id-137 tablepress-responsive">
+            `<table id="tablepress-137" class="tablepress tablepress-id-137 tablepress-responsive table table-striped">
             <thead>
             <tr class="row-1 odd">
             <th class="column-1"><strong>Command</strong></th><th class="column-2"><strong>Example/Usage of Command</strong></th><th class="column-3"><strong>Description</strong></th>
@@ -345,7 +345,7 @@ let unixQuestions =  {
             `Explain about file permissions.`,
             `There are 3 types of file permissions as shown below:
             
-            <table id="tablepress-138" class="tablepress tablepress-id-138 tablepress-responsive">
+            <table id="tablepress-138" class="tablepress tablepress-id-138 tablepress-responsive table table-striped">
             <thead>
             <tr class="row-1 odd">
             <th class="column-1"><strong>Permissions</strong></th><th class="column-2"><strong>Weight</strong></th>
@@ -380,7 +380,7 @@ let unixQuestions =  {
             `What are the different blocks of a file system? Explain in brief.`,
             `Given below are the main 4 different blocks available on a file system.
             
-            <table id="tablepress-139" class="tablepress tablepress-id-139 tablepress-responsive">
+            <table id="tablepress-139" class="tablepress tablepress-id-139 tablepress-responsive table table-striped">
             <thead>
             <tr class="row-1 odd">
             <th class="column-1"><strong>File System</strong></th><th class="column-2">&nbsp;</th>

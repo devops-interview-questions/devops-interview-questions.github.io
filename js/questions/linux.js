@@ -141,7 +141,7 @@ let linuxQuestions = {
             `Differentiate between BASH and DOS?`,
             `The basic differences between BASH and DOS can be understood from the below table.
             
-            <table id="tablepress-93" class="tablepress tablepress-id-93 tablepress-responsive dataTable no-footer" role="grid" aria-describedby="tablepress-93_info">
+            <table id="tablepress-93" class="tablepress tablepress-id-93 tablepress-responsive dataTable no-footer table table-striped" role="grid" aria-describedby="tablepress-93_info">
             <thead>
             <tr class="row-1 odd" role="row"><th class="column-1 sorting" tabindex="0" aria-controls="tablepress-93" rowspan="1" colspan="1" aria-label="BASH: activate to sort column ascending" style="width: 475.531px;">BASH</th><th class="column-2 sorting" tabindex="0" aria-controls="tablepress-93" rowspan="1" colspan="1" aria-label="DOS: activate to sort column ascending" style="width: 253.562px;">DOS</th></tr>
             </thead>
@@ -269,7 +269,7 @@ let linuxQuestions = {
         ],
         [
             `Differentiate between Cron and Anacron?`,
-            `<table id="tablepress-94" class="tablepress tablepress-id-94 tablepress-responsive">
+            `<table id="tablepress-94" class="tablepress tablepress-id-94 tablepress-responsive table table-striped">
             <thead>
             <tr class="row-1 odd">
             <th class="column-1">Cron</th><th class="column-2">Anacron</th>

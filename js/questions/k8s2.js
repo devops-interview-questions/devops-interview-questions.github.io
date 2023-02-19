@@ -17,6 +17,12 @@ let k8s2Questions =  {
     ],
     Questions: [
         [
+            `Video tutorials`,
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/s_o8dwzRlu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/X48VuDVv0do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        ],
+        [
             `What's Kubernetes?`,
             `Kubernetes is a distributed open-source technology that helps us in scheduling and executing application containers within and across clusters. A Kubernetes cluster consists of two types of resources:
 

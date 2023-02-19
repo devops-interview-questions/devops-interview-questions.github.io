@@ -22,134 +22,68 @@
                     
                     Whether you are an experienced DevOps professional or just starting out in the field, preparing for DevOps interview questions is an important step in your career journey. By familiarizing yourself with the key concepts and techniques of DevOps, you can demonstrate your knowledge and skills to potential employers and set yourself apart as a highly qualified candidate.`
                 ],
-                [
-                    `Disclaimer`,
-                    `The interview guidelines provided below are intended to serve as a general guide for conducting job interviews. They are not intended to be legal advice, and should not be relied upon as such. These guidelines are not exhaustive and do not cover all potential legal issues that may arise during the interview process. We encourages all interviewers to consult with human resources or legal counsel to ensure compliance with all applicable laws and regulations. The company is not responsible for any actions or decisions made by interviewers in reliance on these guidelines.`
-                ]
+                // [
+                //     `Disclaimer`,
+                //     `The interview guidelines provided below are intended to serve as a general guide for conducting job interviews. They are not intended to be legal advice, and should not be relied upon as such. These guidelines are not exhaustive and do not cover all potential legal issues that may arise during the interview process. We encourages all interviewers to consult with human resources or legal counsel to ensure compliance with all applicable laws and regulations. The company is not responsible for any actions or decisions made by interviewers in reliance on these guidelines.`
+                // ],
+                // [
+                //     `Introduction videos`,
+                //     `<iframe width="560" height="315" src="https://www.youtube.com/embed/_Gpe1Zn-1fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                //     <iframe width="560" height="315" src="https://www.youtube.com/embed/9pZ2xmsSDdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                //     <iframe width="560" height="315" src="https://www.youtube.com/embed/j5Zsa_eOXeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                // ]
             ]
         },
-        cicdQuestions,
-        linuxQuestions,
-        unixQuestions,
-        shellQuestions,
-        shellScriptingQuestions,
-        gitQuestions,
-        dockerQuestions,
-        docker2Questions,
-        k8s2Questions,
-        k8sQuestions,
-        {
-            Section: "Azure",
-            Title: "Top 45+",
-            URLs: [
-                {
-                    Title: 'Source: k21academy.com',
-                    URL: "https://k21academy.com/microsoft-azure/az-303/top-interview-questions-for-microsoft-azure-solution-architect/",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Azure DevOps",
-            Title: "Top 50",
-            URLs: [
-                {
-                    Title: 'Source: opstrainerz.com',
-                    URL: "https://www.opstrainerz.com/blog/azure-devops-interview-questions",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Azure DevOps",
-            Title: "Top 30",
-            URLs: [
-                {
-                    Title: 'Source: mindmajix.com',
-                    URL: "https://mindmajix.com/azure-devops-interview-questions",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "Azure Pipelines",
-            Title: "Top 20",
-            URLs: [
-                {
-                    Title: 'Source: softwaretestinghelp.com',
-                    URL: "https://www.softwaretestinghelp.com/shell-scripting-interview-questions/",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "CI/CD",
-            Title: "30 common",
-            URLs: [
-                {
-                    Title: 'Source: semaphoreci.com',
-                    URL: "https://semaphoreci.com/blog/common-cicd-interview-questions",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "AWS",
-            Title: "Top 100+",
-            URLs: [
-                {
-                    Title: 'Source: simplilearn.com',
-                    URL: "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        },
-        {
-            Section: "AWS",
-            Title: "Top 55",
-            URLs: [
-                {
-                    Title: 'Source: intellipaat.com',
-                    URL: "https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/",
-                }
-            ],
-            Questions: [
-                [
-                    ``,
-                    ``
-                ]
-            ]
-        }
+        // cicdQuestions,
+        // linuxQuestions,
+        // unixQuestions,
+        // shellQuestions,
+        // shellScriptingQuestions,
+        // gitQuestions,
+        // dockerQuestions,
+        // docker2Questions,
+        // k8s2Questions,
+        // k8sQuestions,
+        // azdoQuestions,
+        // azdo2Questions,
+        // azpipelinesQuestions,
+        // azQuestions,
+        awsQuestions, // TODO
+        // aws2Questions, // TODO
+        // {
+        //     Section: "AWS",
+        //     Title: "Top 100+",
+        //     URLs: [
+        //         {
+        //             Title: 'Source: simplilearn.com',
+        //             URL: "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+        //         }
+        //     ],
+        //     Questions: [
+        //         [
+        //             ``,
+        //             ``
+        //         ]
+        //     ]
+        // },
+        // {
+        //     Section: "AWS",
+        //     Title: "Top 55",
+        //     URLs: [
+        //         {
+        //             Title: 'Source: intellipaat.com',
+        //             URL: "https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/",
+        //         }
+        //     ],
+        //     Questions: [
+        //         [
+        //             ``,
+        //             ``
+        //         ]
+        //     ]
+        // }
 
     ];
 

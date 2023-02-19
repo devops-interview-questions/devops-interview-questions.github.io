@@ -3,6 +3,14 @@ let cicdQuestions =  {
     Title: "30 Common",
     URLs: [
         {
+            Title: 'Video tutorial 1',
+            URL: 'https://youtu.be/1er2cjUq1UI'
+        },
+        {
+            Title: 'Video tutorial 2',
+            URL: 'https://youtu.be/M4CXOocovZ4'
+        },
+        {
             Title: 'Source: semaphoreci.com',
             URL: "https://semaphoreci.com/blog/common-cicd-interview-questions",
         }
@@ -10,7 +18,9 @@ let cicdQuestions =  {
     Questions: [
         [
             `Video tutorials`,
-            ``
+            `<iframe width="560" height="315" src="https://www.youtube.com/embed/1er2cjUq1UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/M4CXOocovZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
         ],
         [
             `Version control`,
