@@ -150,7 +150,4 @@
     $('iframe').addClass('lozad');
     $('img').addClass('lozad');
 
-    const observer = lozad();
-    observer.observe();
-
 })();

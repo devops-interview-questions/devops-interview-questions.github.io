@@ -70,4 +70,8 @@
   
     setActiveItem()
     window.addEventListener('hashchange', setActiveItem)
+
+    observer = lozad();
+    observer.observe();
+
   })()
