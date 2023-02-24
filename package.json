@@ -1,0 +1,24 @@
+{
+  "name": "devops-interview-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://devops-interview-questions@github.com/devops-interview-questions/devops-interview-questions.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devops-interview-questions/devops-interview-questions.github.io/issues"
+  },
+  "homepage": "https://github.com/devops-interview-questions/devops-interview-questions.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "lozad": "^1.16.0"
+  }
+}
