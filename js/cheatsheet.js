@@ -71,7 +71,7 @@
     setActiveItem()
     window.addEventListener('hashchange', setActiveItem)
 
-    observer = lozad();
+    var observer = lozad();
     observer.observe();
 
   })()
